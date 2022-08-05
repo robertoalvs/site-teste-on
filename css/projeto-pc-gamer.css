@@ -36,6 +36,7 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-bottom: 20px;
     color: var(--color1);
+    
  }
 
  #container {
@@ -123,6 +124,7 @@ nav {
    margin: 0;
    font-family: var(--fonte);
    padding-top: 8px;
+   text-shadow: 0 2px 5px black;
  }
 
  span {
@@ -132,6 +134,7 @@ nav {
    margin: 3px 0 0 1em;
    font-style: italic;
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-shadow: none;
  }
 
 
@@ -193,9 +196,11 @@ a:hover {
 
 .sessao1 p, .sessao2 p, .sessao3 p {
 
-   margin: -5px 15px 0 110px;
-   text-align: justify;
+   margin: -5px 15px 0 110px; /* -2.5px 1em 0 7em */
+   /* text-align: justify; */
    line-height: normal;
+   /* text-indent: 10px; */
+   /* word-spacing: .0423em; */
 }
 
 .sessao1, .sessao2, .sessao3 {
